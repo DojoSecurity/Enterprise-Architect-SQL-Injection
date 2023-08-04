@@ -21,7 +21,7 @@ In the newly opened windows pick _Search_**(1)** functionality and in the _Find_
 
 In the search _results_**(3)**, all users of the application and the password for the admin account were returned.
 
-As the databases structure differs, simpler payload can be used:
+As the databases structure differs, simplier payload can be used:
 ```
 ‘union select null,@@version,null,null,null,null,null,null,null;--
 ```
@@ -31,5 +31,9 @@ Search results will return the version of the database used.
 According to vendor, passwords were stored in plaintext within "t_secuser" table in older versions of EA.
 From EA 11 onward passwords are stored in t_xref as hashes using SHA hashing algorithm.
 
-Personally, I think that the occurence of plaintext passwords in version 16.0.1605 must be caused by an upgrade from a older version.
-Surely worth checking if you own an instance of Enterprise Architect or if you are testing one of these.
+Personally, I think that the occurence of plaintext passwords in version 16.0.1605 must be caused by an upgrade from a older version.           
+It is surely worth checking if you own an instance of Enterprise Architect or if you are testing one of these.
+
+Vendor fixed the vulnerability within 1625 build but labeled it in changelog as _"Select Dialog 'Search' tab now allows finding elements containing an apostrophe"_ .                               
+This is a manifestation of either ignorance or a deliberate action aimed at hiding the error from the users.             
+Reference: https://sparxsystems.com.au/products/ea/history.html#1625
