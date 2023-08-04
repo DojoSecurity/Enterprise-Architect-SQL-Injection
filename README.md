@@ -29,10 +29,10 @@ Search results will return the version of the database used.
 
 **Additional Info**                       
 According to vendor, passwords were stored in plaintext within "t_secuser" table in older versions of EA.
-From EA 11 onward passwords are stored in t_xref as hashes using SHA hashing algorithm.
+From EA 11 onward passwords are stored in t_xref as hashes using SHA-256 hashing algorithm.
 
 Personally, I think that the occurence of plaintext passwords in version 16.0.1605 must be caused by an upgrade from a older version.           
-It is surely worth checking if you own an instance of Enterprise Architect or if you are testing one of these.
+It is surely worth checking if you own an instance of Enterprise Architect or if you are testing one.
 
 Vendor fixed the vulnerability within 1625 build but labeled it in changelog as _"Select Dialog 'Search' tab now allows finding elements containing an apostrophe"_ .                               
 This is a manifestation of either ignorance or a deliberate action aimed at hiding the error from the users.             
