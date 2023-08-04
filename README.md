@@ -1,4 +1,4 @@
-# Enterprise-Architect-SQL-Injection v.16.0.1605(Build: 1605) - 32 bit
+# Enterprise-Architect SQL-Injection v.16.0.1605(Build: 1605) - 32 bit
 
 **Timeline:**       
 **Vulnerability reported to vendor:**  07.11.2022           
