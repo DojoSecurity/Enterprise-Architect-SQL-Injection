@@ -12,8 +12,8 @@ Enterprise-Architect v.16.0.1605(Build: 1605) - 32 bit
 Additional SQL queries can be injected into _Find_ field within _Select Classifier_ functionality.       
 Below are the steps required to recreate the vulnerability:             
 <img src="/Location.jpeg">          
-Press the _Search_**(1)** button then chose Browse for _Diagram_**(2)**:           
-In the newly opened windows pick _Search_**(1)** functionality and in the _Find_**(2)** form paste the following payload:         
+Press the _Search_**(1)** button then chose _Browse for Diagram_**(2)**:           
+In the newly opened window pick _Search_**(1)** functionality and in the _Find_**(2)** form paste the following payload:         
 ```
 ‘union select null,password,null,null,Userlogin,null,null,null,null from t_secuser;--
 ```
