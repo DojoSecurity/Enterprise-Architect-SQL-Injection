@@ -3,7 +3,11 @@
 **Timeline:**       
 **Vulnerability reported to vendor:**  07.11.2022           
 **New fixed build 1625:**    02.03.2023                      
-**Disclosure:** 04.08.2023           
+**Disclosure:** 04.08.2023   
+**CVE Numbers assigned:** 31.01.2024 CVE-2022-47072 https://www.cve.org/CVERecord?id=CVE-2022-47072
+
+
+**Acknowledgements:** Maksymilian Kubiak, Sławomir Zakrzewski  
 
 **Affected Products:**            
 Enterprise-Architect v.16.0.1605(Build: 1605) - 32 bit             
